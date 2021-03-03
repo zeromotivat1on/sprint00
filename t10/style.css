@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+
+div {
+    display: inline-block;
+}
+
+div:hover {
+    box-shadow: 3px 2px 0.1em lightgray, -2px 2px 0.5em lightgray;
+}
+
+.date {
+    margin: 0px;
+    background: blue;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Lato';
+    font-weight: 400;
+    text-align: center;
+}
+
+.temperature {
+    margin: 0px;
+    background: white;
+    color: black;
+    font-size: 2em;
+    font-family: 'Lato';
+    font-weight: 700;
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+div {
+    display: flex;
+    flex-flow: row;
+}
+
+input {
+    box-sizing: border-box;
+    width: 100%;
+    color: green;
+    padding: 0px 10px;
+    height: 2em;
+}
+
+input:hover {
+    color: red;
+}
+
+button {
+    box-sizing: border-box;
+    padding: 0px 10px;
+    height: 2em;
+    color: green;
+}
+
+button:hover {
+    color: red;
+}

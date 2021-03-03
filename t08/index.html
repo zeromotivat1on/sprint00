@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description" content="t08. Form" charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Superhero Form</h1>
+    <form>
+        <div class="about_superhero">
+        <p class="about_superhero_header">About the Superhero</p>
+        <span>Real Name</span>
+        <input size = "18" placeholder="Superhero real name"></input>
+        <span>Superhero Name</span>
+        <input size = "18" placeholder="Superhero alias"></input>
+        <span>Age</span>
+        <input type="number" size="6" min="1" max="999" step="1"></input><br><br>
+        <span>About</span>
+        <textarea rows="5" cols="70" maxlength="500"></textarea><br><br>
+        <span>Photo:</span>
+        <input type="file"> </input>
+        </div>
+        <div class="powers about_superhero">
+            <p class="powers_header">Powers</p>
+            <input type="checkbox">Telekinesis</input>
+            <input type="checkbox">Super strength or speed</input>
+            <input type="checkbox">Shpeshifting</input>
+            <input type="checkbox">Flight</input>
+            <input type="checkbox">Elemental control</input>
+            <input type="checkbox">Other</input><br><br>
+            <span>Level of control:</span>
+            <input type="range" value="0"></input>
+        </div>
+        <div class="powers_origin about_superhero">
+            <p class="powers_origin_header">Origin of Powers</p>
+            <input type="radio" name="cringe">Unknown</input>
+            <input type="radio" name="cringe">Freak lab accident</input>
+            <input type="radio" name="cringe">Chosen by an ancient wise being</input>
+            <input type="radio" name="cringe">The superhero is not human</input>
+            <input type="radio" name="cringe">Other</input>
+        </div>
+        <input class="clear_button" type="reset" value="CLEAR">
+        <input class="send_button" type="submit" value="SEND"></input>
+    </form>
+</body>
+</html>

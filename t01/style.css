@@ -1,0 +1,51 @@
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.header_row {
+    border: 0px;
+}
+
+#main_row {
+    background: black;
+    color: white;
+  
+}
+
+#soul_row {
+    background: orange;
+}
+
+#time_row {
+    background: green;
+}
+
+#space_row {
+    background: blue;
+}
+
+#mind_row {
+    background: yellow;
+}
+
+#reality_row {
+    background: red;
+}
+
+#power_row {
+    background: purple;
+}
+
+#wiki_h {
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}

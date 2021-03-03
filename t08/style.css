@@ -1,0 +1,63 @@
+form {
+    border: 2px solid gray;
+    padding: 20px;
+}
+
+.about_superhero {
+    border: 2px solid gray;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.about_superhero_header {
+    position: relative;
+    bottom: 45px;
+    margin-bottom: -25px;
+    background: white;
+    width: 135px;
+}
+
+.no_file_text {
+    font: 14px Arial;
+}
+
+.powers {
+    margin-top: 10px;
+}
+
+.powers_header {
+    position: relative;
+    bottom: 45px;
+    margin-bottom: -25px;
+    background: white;
+    width: 49px;
+}
+
+.powers_origin {
+    margin: 10px 0px;
+    padding-bottom: 30px;
+}
+
+.powers_origin_header {
+    position: relative;
+    bottom: 45px;
+    margin-bottom: -25px;
+    background: white;
+    width: 112px;
+}
+
+.clear_button {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    border-color: lightgray;
+    padding: 0px 8px;
+    font-size: 12px;
+}
+
+.send_button {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 0px 8px;
+    font-size: 12px;
+}
